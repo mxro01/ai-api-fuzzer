@@ -1,0 +1,15 @@
+__endpoint,count
+/identity/api/v2/user/videos,130
+/identity/api/auth/v3/check-otp,23
+/identity/api/v2/user/reset-password,18
+/identity/api/auth/v2/check-otp,14
+/identity/api/auth/v2.7/user/login-with-token,13
+/community/api/v2/coupon/validate-coupon,12
+/workshop/api/merchant/contact_mechanic,8
+/workshop/api/shop/orders/return_order,7
+/workshop/api/mechanic/receive_report,7
+/community/api/v2/community/posts/{postId}/comment,6
+/identity/api/v2/user/verify-email-token,5
+/workshop/api/shop/orders,3
+/workshop/api/shop/orders/{order_id},2
+/identity/api/v2/user/pictures,1

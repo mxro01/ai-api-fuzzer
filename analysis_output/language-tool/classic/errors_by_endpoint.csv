@@ -1,0 +1,4 @@
+__endpoint,count
+/words/delete,13
+/words/add,12
+/check,10

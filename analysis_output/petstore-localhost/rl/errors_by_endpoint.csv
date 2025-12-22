@@ -1,0 +1,10 @@
+__endpoint,count
+/user/createWithList,712
+/user,375
+/store/inventory,232
+/pet,124
+/user/logout,17
+/user/{username},15
+/user/login,8
+/user/createWithArray,8
+/pet/{petId},7

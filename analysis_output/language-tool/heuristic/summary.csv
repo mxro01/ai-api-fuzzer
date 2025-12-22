@@ -1,0 +1,14 @@
+,value
+total_requests,25148.0
+unique_endpoints,5.0
+unique_mutators,17.0
+avg_reward,-0.10477970415142357
+reward_std,0.3101461241843305
+total_5xx,30.0
+total_4xx,22453.0
+total_2xx,2665.0
+unique_status_codes,6.0
+unique_paths_tested,16.0
+unique_bugs_found,25.0
+avg_episode_to_first_5xx,91.88888888888889
+runs_with_5xx,9.0
