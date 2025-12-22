@@ -119,5 +119,6 @@ These results support the hypothesis that **reinforcement learning combined with
 - Generated token for API usage
 
 ### Execution
+Firstly there is a need to change paths in the code, especially in GPT parser you should provide your API key. If needed also provide API token for SUT in api_fuzz_env.py. 
 ```bash
 python main.py
