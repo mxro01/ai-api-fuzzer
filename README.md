@@ -1,7 +1,7 @@
 # Intelligent REST API Fuzzing with Reinforcement Learning and LLM Support
 
 This repository contains an experimental framework for **automated REST API testing** that combines **reinforcement learning (Q‑Learning)** with **large language model (LLM) support** for semantic request generation.  
-The project was developed as part of a **Master’s thesis** focused on applying artificial intelligence to software testing automation.
+The project was developed as part of a **Master’s thesis** focused on applying artificial intelligence to software testing automation at Wrocław University of Science and Technology.
 
 ## Project Overview
 
@@ -115,10 +115,11 @@ These results support the hypothesis that **reinforcement learning combined with
 ### Requirements
 - Python 3.9+
 - OpenAI API key (for GPT integration)
-- Internet access to the tested REST API or REST API is hosted locally
-- Generated token for API usage
+- Internet access to the tested REST API or locally hosted instance.
+- (Optional) Authentication token for the API under test (configured in api_fuzz_env.py)
+- Fuzzing payloads from PayloadsAllTheThings, used internally by the environment
 
 ### Execution
-Firstly there is a need to change paths in the code, especially in GPT parser you should provide your API key. If needed also provide API token for SUT in api_fuzz_env.py. 
 ```bash
+pip install -r requirements.txt
 python main.py
