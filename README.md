@@ -117,7 +117,7 @@ These results support the hypothesis that **reinforcement learning combined with
 - OpenAI API key (for GPT integration)
 - Internet access to the tested REST API or locally hosted instance.
 - (Optional) Authentication token for the API under test (configured in api_fuzz_env.py)
-- Fuzzing payloads from PayloadsAllTheThings, used internally by the environment
+- Fuzzing payloads from [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings), used internally by the environment
 
 ### Execution
 ```bash
